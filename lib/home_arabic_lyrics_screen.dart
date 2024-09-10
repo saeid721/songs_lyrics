@@ -3,18 +3,17 @@ import 'package:get/get.dart';
 import 'widget/chapter_item_widget.dart';
 import 'bangla_lyrics/bangla_001.dart';
 import 'widget/colors.dart';
-import 'widget/sidebar_menu_widget.dart';
 
-class ArabicIslamicSongsLyricListScreen extends StatefulWidget {
-  const ArabicIslamicSongsLyricListScreen({super.key});
+class ArabicSongsLyricListScreen extends StatefulWidget {
+  const ArabicSongsLyricListScreen({super.key});
 
   @override
-  State<ArabicIslamicSongsLyricListScreen> createState() =>
-      _ArabicIslamicSongsLyricListScreenState();
+  State<ArabicSongsLyricListScreen> createState() =>
+      _ArabicSongsLyricListScreenState();
 }
 
-class _ArabicIslamicSongsLyricListScreenState
-    extends State<ArabicIslamicSongsLyricListScreen> {
+class _ArabicSongsLyricListScreenState
+    extends State<ArabicSongsLyricListScreen> {
   int currentIndex = 0;
 
   setBottomBarIndex(index) {
@@ -42,7 +41,7 @@ class _ArabicIslamicSongsLyricListScreenState
         centerTitle: true,
         //backgroundColor: ColorRes.title,
       ),
-      drawer: const SideberMenuWidget(),
+      //drawer: const SideberMenuWidget(),
       body: SafeArea(
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
