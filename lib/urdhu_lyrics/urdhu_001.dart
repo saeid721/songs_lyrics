@@ -4,8 +4,8 @@ import '../widget/colors.dart';
 import '../widget/global_container.dart';
 import '../widget/global_text.dart';
 
-class ChapterOneScreen extends StatelessWidget {
-  const ChapterOneScreen({super.key});
+class UrdhuOneScreen extends StatelessWidget {
+  const UrdhuOneScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
