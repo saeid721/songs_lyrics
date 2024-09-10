@@ -44,14 +44,6 @@ class BanglaSongsLyricListScreen extends StatefulWidget {
 
 class _BanglaSongsLyricListScreenState
     extends State<BanglaSongsLyricListScreen> {
-  int currentIndex = 0;
-
-  setBottomBarIndex(index) {
-    setState(() {
-      currentIndex = index;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
