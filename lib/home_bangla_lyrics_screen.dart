@@ -89,28 +89,21 @@ class _BanglaIslamicSongsLyricListScreenState
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
-                  title: 'আমার বড় কষ্ট হয়',
+                  title: 'মায়ের, একধার দুধের দাম',
                   onTap: () {
                     Get.to(() => const BanglaTwoScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
-                  title: 'দুনিয়া সুন্দর, মানুষ সুন্দর',
+                  title: 'মা - দশ মাস দশ দিন ধরে গর্ভে ধারণ',
                   onTap: () {
                     Get.to(() => const BanglaThreeScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
-                  title: 'মাওলা ইয়া সল্লি ওয়া সল্লিম',
-                  onTap: () {
-                    Get.to(() => const ArabicOneScreen());
-                  },
-                ),
-                const SizedBox(height: 5),
-                ChapterItem(
-                  title: 'যে মা আমায় ছোট্ট থেকে',
+                  title: 'বাবা কতদিন, কতদিন দেখিনা তোমায়',
                   onTap: () {
                     Get.to(() => const BanglaFourScreen());
                   },
@@ -400,6 +393,13 @@ class _BanglaIslamicSongsLyricListScreenState
                   title: 'Lorem',
                   onTap: () {
                     Get.to(() => const BanglaFiveScreen());
+                  },
+                ),
+                const SizedBox(height: 5),
+                ChapterItem(
+                  title: 'মাওলা ইয়া সল্লি ওয়া সল্লিম',
+                  onTap: () {
+                    Get.to(() => const ArabicOneScreen());
                   },
                 ),
               ],

@@ -34,7 +34,7 @@ class SideberMenuWidget extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: const Text('About Writer'),
+            title: const Text('About App'),
             leading: const Icon(Icons.person_outline_outlined,
                 color: ColorRes.primaryColor),
             onTap: () {
