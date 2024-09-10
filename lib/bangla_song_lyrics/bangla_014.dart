@@ -4,8 +4,8 @@ import '../widget/colors.dart';
 import '../widget/global_container.dart';
 import '../widget/global_text.dart';
 
-class BanglaEightteenScreen extends StatelessWidget {
-  const BanglaEightteenScreen({super.key});
+class BanglaSongFourteenScreen extends StatelessWidget {
+  const BanglaSongFourteenScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class BanglaEightteenScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          "আমার মতো এতো সুখী নয় তো কারো জীবন",
+          "",
           style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w700,
@@ -43,21 +43,7 @@ class BanglaEightteenScreen extends StatelessWidget {
                   child: const Padding(
                     padding: EdgeInsets.all(10),
                     child: GlobalText(
-                      str: """মসজিদেরই পাশে আমার কবর দিও ভাই।
-যেন গোরে থেকেও মোয়াজ্জিনের আজান শুনতে পাই।।
-
-আমার গোরের পাশ দিয়ে ভাই নামাজীরা যাবে,
-পবিত্র সেই পায়ের ধ্বনি এ বান্দা শুনতে পাবে।
-গোর - আজাব থেকে এ গুনাহগার পাইবে রেহাই।।
-
-কত পরহেজগার খোদার ভক্ত নবীজীর উম্মত
-ঐ মসজিদে করে রে ভাই, কোরান তেলাওয়াত।
-সেই কোরান শুনে যেন আমি পরান জুড়াই।।
-
-কত দরবেশ ফকির রে ভাই, মসজিদের আঙ্গিনাতে
-আল্লার নাম জিকির করে লুকিয়ে গভীর রাতে,
-আমি তাদের সাথে কেঁদে কেঁদে 
-(আল্লার নাম জপতে চাই) ।।""",
+                      str: """ """,
                     ),
                   ),
                 ),

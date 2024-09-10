@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'widget/chapter_item_widget.dart';
-import 'bangla_lyrics/bangla_001.dart';
 import 'widget/colors.dart';
 
 class UrdhuSongsLyricListScreen extends StatefulWidget {
@@ -22,7 +21,7 @@ class _UrdhuSongsLyricListScreenState extends State<UrdhuSongsLyricListScreen> {
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          'Islamic Songs Lyrics',
+          'Urdhu Songs Lyrics',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w700,
@@ -45,42 +44,42 @@ class _UrdhuSongsLyricListScreenState extends State<UrdhuSongsLyricListScreen> {
                 ChapterItem(
                   title: 'প্রথম',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'দ্বিতীয়',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'তৃতীয়',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'চতুর্থ',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'পঞ্চম',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'ষষ্ঠ',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ());
                   },
                 ),
               ],

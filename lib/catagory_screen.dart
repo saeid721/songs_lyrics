@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'home_arabic_lyrics_screen.dart';
-import 'home_bangla_lyrics_screen.dart';
+import 'home_bangla_song_lyrics_screen.dart';
 import 'home_english_lyrics_screen.dart';
 import 'home_hindi_lyrics_screen.dart';
 import 'widget/colors.dart';

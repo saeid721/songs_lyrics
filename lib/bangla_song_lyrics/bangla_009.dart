@@ -4,8 +4,8 @@ import '../widget/colors.dart';
 import '../widget/global_container.dart';
 import '../widget/global_text.dart';
 
-class BanglaNineScreen extends StatelessWidget {
-  const BanglaNineScreen({super.key});
+class BanglaSongNineScreen extends StatelessWidget {
+  const BanglaSongNineScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

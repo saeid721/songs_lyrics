@@ -4,8 +4,8 @@ import '../widget/colors.dart';
 import '../widget/global_container.dart';
 import '../widget/global_text.dart';
 
-class BanglaFourteenScreen extends StatelessWidget {
-  const BanglaFourteenScreen({super.key});
+class BanglaSongThirteenScreen extends StatelessWidget {
+  const BanglaSongThirteenScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -87,6 +87,7 @@ class BanglaFourteenScreen extends StatelessWidget {
 বাসা থুইয়া বাসার মালিক কোথায় যায়
 ও মানুষ কেমনে মইরা যায়
 মরে যায় মানুষ কেমনে মইরা যায়
+
 মনরে......
 দুই দিনের লাগিয়া রে মানুষ পাগল হইয়া যায়
 চিনলাম না তো আসল নকল সবি ভুলে যায়

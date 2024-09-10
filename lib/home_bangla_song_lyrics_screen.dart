@@ -1,35 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'bangla_lyrics/bangla_001.dart';
-import 'bangla_lyrics/bangla_002.dart';
-import 'bangla_lyrics/bangla_003.dart';
-import 'bangla_lyrics/bangla_004.dart';
-import 'bangla_lyrics/bangla_005.dart';
-import 'bangla_lyrics/bangla_006.dart';
-import 'bangla_lyrics/bangla_007.dart';
-import 'bangla_lyrics/bangla_008.dart';
-import 'bangla_lyrics/bangla_009.dart';
-import 'bangla_lyrics/bangla_010.dart';
-import 'bangla_lyrics/bangla_011.dart';
-import 'bangla_lyrics/bangla_012.dart';
-import 'bangla_lyrics/bangla_013.dart';
-import 'bangla_lyrics/bangla_014.dart';
-import 'bangla_lyrics/bangla_015.dart';
-import 'bangla_lyrics/bangla_016.dart';
-import 'bangla_lyrics/bangla_017.dart';
-import 'bangla_lyrics/bangla_018.dart';
-import 'bangla_lyrics/bangla_019.dart';
-import 'bangla_lyrics/bangla_020.dart';
-import 'bangla_lyrics/bangla_021.dart';
-import 'bangla_lyrics/bangla_022.dart';
-import 'bangla_lyrics/bangla_023.dart';
-import 'bangla_lyrics/bangla_024.dart';
-import 'bangla_lyrics/bangla_025.dart';
-import 'bangla_lyrics/bangla_026.dart';
-import 'bangla_lyrics/bangla_027.dart';
-import 'bangla_lyrics/bangla_028.dart';
-import 'bangla_lyrics/bangla_029.dart';
-import 'bangla_lyrics/bangla_030.dart';
+import 'bangla_song_lyrics/bangla_001.dart';
+import 'bangla_song_lyrics/bangla_002.dart';
+import 'bangla_song_lyrics/bangla_003.dart';
+import 'bangla_song_lyrics/bangla_004.dart';
+import 'bangla_song_lyrics/bangla_005.dart';
+import 'bangla_song_lyrics/bangla_006.dart';
+import 'bangla_song_lyrics/bangla_007.dart';
+import 'bangla_song_lyrics/bangla_008.dart';
+import 'bangla_song_lyrics/bangla_009.dart';
+import 'bangla_song_lyrics/bangla_010.dart';
+import 'bangla_song_lyrics/bangla_011.dart';
+import 'bangla_song_lyrics/bangla_012.dart';
+import 'bangla_song_lyrics/bangla_013.dart';
 import 'widget/chapter_item_widget.dart';
 import 'arabic_lyrics/arabic_001.dart';
 import 'widget/colors.dart';
@@ -53,7 +36,7 @@ class _BanglaSongsLyricListScreenState
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          'Songs Lyrics',
+          'Bangla Songs Lyrics',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w700,
@@ -75,100 +58,100 @@ class _BanglaSongsLyricListScreenState
                 ChapterItem(
                   title: "আমার মতো এতো সুখী নয় তো কারো জীবন",
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const BanglaSongOneScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'মায়ের, একধার দুধের দাম',
                   onTap: () {
-                    Get.to(() => const BanglaTwoScreen());
+                    Get.to(() => const BanglaSongTwoScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'মা - দশ মাস দশ দিন ধরে গর্ভে ধারণ',
                   onTap: () {
-                    Get.to(() => const BanglaThreeScreen());
+                    Get.to(() => const BanglaSongThreeScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'বাবা কতদিন, কতদিন দেখিনা তোমায়',
                   onTap: () {
-                    Get.to(() => const BanglaFourScreen());
+                    Get.to(() => const BanglaSongFourScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'মনে করি আসাম যাবো',
                   onTap: () {
-                    Get.to(() => const BanglaFiveScreen());
+                    Get.to(() => const BanglaSongFiveScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'মরলে কেন কান্দে মানুষ',
                   onTap: () {
-                    Get.to(() => const BanglaSixScreen());
+                    Get.to(() => const BanglaSongSixScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'সাই রাব্বানা এই দুনিয়ায় পাঠাইয়া কেন',
                   onTap: () {
-                    Get.to(() => const BanglaSevenScreen());
+                    Get.to(() => const BanglaSongSevenScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'আমি তো মরে যাবো',
                   onTap: () {
-                    Get.to(() => const BanglaEightScreen());
+                    Get.to(() => const BanglaSongEightScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'জাত গেল জাত গেল বলে',
                   onTap: () {
-                    Get.to(() => const BanglaNineScreen());
+                    Get.to(() => const BanglaSongNineScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'ছেলে আমার মস্ত মানুষ মস্ত অফিসার',
                   onTap: () {
-                    Get.to(() => const BanglaTenScreen());
+                    Get.to(() => const BanglaSongTenScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'আমি চিৎকার করে কাদিতে চাহিয়া',
                   onTap: () {
-                    Get.to(() => const BanglaElevenScreen());
+                    Get.to(() => const BanglaSongElevenScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'আমার আমি নাই রে',
                   onTap: () {
-                    Get.to(() => const BanglaTwelveScreen());
-                  },
-                ),
-                const SizedBox(height: 5),
-                ChapterItem(
-                  title: 'সাই রাব্বানা এই দুনিয়ায় পাঠাইয়া কেন',
-                  onTap: () {
-                    Get.to(() => const BanglaThirteenScreen());
+                    Get.to(() => const BanglaSongTwelveScreen());
                   },
                 ),
                 const SizedBox(height: 5),
                 ChapterItem(
                   title: 'দুই দিনের লাগিয়া রে মানুষ',
                   onTap: () {
-                    Get.to(() => const BanglaFourteenScreen());
+                    Get.to(() => const BanglaSongThirteenScreen());
                   },
                 ),
+                const SizedBox(height: 5),
+                // ChapterItem(
+                //   title: 'আমি',
+                //   onTap: () {
+                //     Get.to(() => const BanglaFourteenScreen());
+                //   },
+                // ),
                 // const SizedBox(height: 5),
                 // ChapterItem(
                 //   title: 'আমি',
@@ -386,13 +369,13 @@ class _BanglaSongsLyricListScreenState
                 //     Get.to(() => const BanglaFiveScreen());
                 //   },
                 // ),
-                // const SizedBox(height: 5),
-                // ChapterItem(
-                //   title: 'মাওলা ইয়া সল্লি ওয়া সল্লিম',
-                //   onTap: () {
-                //     Get.to(() => const ArabicOneScreen());
-                //   },
-                // ),
+                const SizedBox(height: 5),
+                ChapterItem(
+                  title: 'মাওলা ইয়া সল্লি ওয়া সল্লিম',
+                  onTap: () {
+                    Get.to(() => const ArabicOneScreen());
+                  },
+                ),
               ],
             ),
           ),
