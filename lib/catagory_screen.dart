@@ -16,14 +16,6 @@ class CatagoryHomeScreen extends StatefulWidget {
 }
 
 class _CatagoryHomeScreenState extends State<CatagoryHomeScreen> {
-  int currentIndex = 0;
-
-  setBottomBarIndex(index) {
-    setState(() {
-      currentIndex = index;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,60 +32,58 @@ class _CatagoryHomeScreenState extends State<CatagoryHomeScreen> {
           ),
         ),
         centerTitle: true,
-        //backgroundColor: ColorRes.title,
       ),
       drawer: const SideberMenuWidget(),
       body: SafeArea(
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const SizedBox(height: 10),
-                Row(
-                  children: [
-                    Expanded(
-                      child: CatagoryCard(
-                        //imagePath: 'assets/images/1.png',
-                        title: 'Bangla',
-                        onTap: () =>
-                            Get.to(() => const BanglaSongsLyricListScreen()),
+        child: Center(
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: CatagoryCard(
+                          title: 'Bangla',
+                          onTap: () =>
+                              Get.to(() => const BanglaSongsLyricListScreen()),
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      child: CatagoryCard(
-                        //imagePath: 'assets/images/6599455.png',
-                        title: 'English',
-                        onTap: () =>
-                            Get.to(() => const EnglishSongsLyricListScreen()),
+                      const SizedBox(width: 5),
+                      Expanded(
+                        child: CatagoryCard(
+                          title: 'English',
+                          onTap: () =>
+                              Get.to(() => const EnglishSongsLyricListScreen()),
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Expanded(
-                      child: CatagoryCard(
-                        //imagePath: 'assets/images/6599458.png',
-                        title: 'Hindi',
-                        onTap: () =>
-                            Get.to(() => const HindiSongsLyricListScreen()),
+                    ],
+                  ),
+                  const SizedBox(height: 5),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: CatagoryCard(
+                          title: 'Hindi',
+                          onTap: () =>
+                              Get.to(() => const HindiSongsLyricListScreen()),
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      child: CatagoryCard(
-                        //: 'assets/images/6599456.png',
-                        title: 'Arabic',
-                        onTap: () =>
-                            Get.to(() => const ArabicSongsLyricListScreen()),
+                      const SizedBox(width: 5),
+                      Expanded(
+                        child: CatagoryCard(
+                          title: 'Arabic',
+                          onTap: () =>
+                              Get.to(() => const ArabicSongsLyricListScreen()),
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ),
