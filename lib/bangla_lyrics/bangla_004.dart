@@ -78,6 +78,7 @@ class BanglaFourScreen extends StatelessWidget {
 মাথায় আকাশ ভেঙে পড়ল
 
 বাবা কতদিন, কতদিন দেখিনা তোমায়""",
+                      fontSize: 14,
                     ),
                   ),
                 ),
