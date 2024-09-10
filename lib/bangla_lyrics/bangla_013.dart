@@ -16,9 +16,9 @@ class BanglaThirteenScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          "ওগো কাবার মালিক",
+          "আমার মতো এতো সুখী নয় তো কারো জীবন",
           style: TextStyle(
-            fontSize: 18,
+            fontSize: 16,
             fontWeight: FontWeight.w700,
             color: ColorRes.primaryColor,
           ),
@@ -33,11 +33,12 @@ class BanglaThirteenScreen extends StatelessWidget {
               backgroundColor: ColorRes.background,
               width: Get.width,
               child: Padding(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(15),
                 child: GlobalContainer(
                   backgroundColor: ColorRes.white,
                   elevation: 2.0,
-                  borderCornerRadius: BorderRadius.circular(5),
+                  borderCornerRadius: BorderRadius.circular(10),
+                  bottomBorderColor: ColorRes.border,
                   width: Get.width,
                   child: const Padding(
                     padding: EdgeInsets.all(10),
@@ -71,7 +72,6 @@ class BanglaThirteenScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 10),
           ],
         ),
       ),

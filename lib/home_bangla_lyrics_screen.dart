@@ -62,7 +62,7 @@ class _BanglaIslamicSongsLyricListScreenState
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          'Islamic Songs Lyrics',
+          'Songs Lyrics',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w700,
@@ -82,7 +82,7 @@ class _BanglaIslamicSongsLyricListScreenState
               children: [
                 const SizedBox(height: 10),
                 ChapterItem(
-                  title: "হে প্রভু রহম করো আমার মা'কে",
+                  title: "আমার মতো এতো সুখী নয় তো কারো জীবন",
                   onTap: () {
                     Get.to(() => const BanglaOneScreen());
                   },

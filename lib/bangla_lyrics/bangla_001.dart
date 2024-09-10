@@ -16,9 +16,9 @@ class BanglaOneScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(color: ColorRes.primaryColor),
         title: const Text(
-          "হে প্রভু রহম করো আমার মা'কে",
+          "আমার মতো এতো সুখী নয় তো কারো জীবন",
           style: TextStyle(
-            fontSize: 18,
+            fontSize: 16,
             fontWeight: FontWeight.w700,
             color: ColorRes.primaryColor,
           ),
@@ -33,38 +33,58 @@ class BanglaOneScreen extends StatelessWidget {
               backgroundColor: ColorRes.background,
               width: Get.width,
               child: Padding(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(15),
                 child: GlobalContainer(
                   backgroundColor: ColorRes.white,
                   elevation: 2.0,
-                  borderCornerRadius: BorderRadius.circular(5),
+                  borderCornerRadius: BorderRadius.circular(10),
+                  bottomBorderColor: ColorRes.border,
                   width: Get.width,
                   child: const Padding(
                     padding: EdgeInsets.all(10),
                     child: GlobalText(
-                      str: """হে প্রভু রহম করো আমার মা'কে 
-যেনো শান্তিতে তিনি ঘুমায়
-এই গুনাহ গারের দোয়া কবুল করো
-মাকে রেখো বেহেশতি ছায়ায় 
+                      str: """আমার মতো এত সুখী
+নয়তো কারো জীবন
+কি আদর স্নেহ ভালবাসায়
+জড়ানো মায়ার বাঁধন
+জানি এ বাঁধন ছিড়ে গেলে কভু
+আসবে আমার মরণ
 
-আজ তোমাকে মা মনে পরছে খুব
-সাজ ঘরে নিভে গেছে যে ধূপ
-তোমার বিরহে বিরহী আমি
-কত গল্পে গল্পে শত স্মৃতি 
-পাইনা খুঁজে মা তোমার প্রীতি
-কেমন আছো মা বলো না তুমি
-আফসোস আমারে বলো কেমনে শুধাই
+আমার মত এত সুখী 
+নয়তো কারো জীবন
+নয়তো কারো জীবন
 
-হে প্রভু রহম করো আমার মাকে
-যেনো শান্তিতে তিনি ঘুমায়
-এই গুনাহ গারের দোয়া কবুল করো
-মাকে রেখো বেহেশতি ছায়ায়""",
+বুকে ধরে যত ফুল ফোটালাম
+সে ফুলের কাঁটা ছাড়া কি পেলাম
+ভাগ্যের পরিহাস এরই নাম
+কেন নিয়তির কাছে বারে বারে
+হেরে যায় মানুষ এমন
+
+আমার মত এত সুখী 
+নয়তো কারো জীবন
+নয়তো কারো জীবন
+
+চারিদিকে নিরাশার বালুচর
+কি আশায় বেঁধেছি এ খেলাঘর
+স্বপ্ন ভেঙে দিতে এল ঝড়
+
+চারিদিকে নিরাশার বালুচর
+কি আশায় বেঁধেছি এ খেলাঘর
+স্বপ্ন ভেঙে দিতে এল ঝড়
+
+কেন মমতার টানে কেঁদে মরে
+বেদনার কথা এমন
+
+আমার মত এত সুখী 
+নয়তো কারো জীবন
+
+কি আদর স্নেহ ভালবাসায়
+জড়ানো মায়ার বাঁধন""",
                     ),
                   ),
                 ),
               ),
             ),
-            const SizedBox(height: 10),
           ],
         ),
       ),

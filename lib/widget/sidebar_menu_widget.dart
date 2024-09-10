@@ -23,7 +23,7 @@ class SideberMenuWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Islamic Songs Lyrics',
+                    'Songs Lyrics',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
@@ -76,7 +76,7 @@ class SideberMenuWidget extends StatelessWidget {
           const SizedBox(height: 5),
           Container(
             decoration: const BoxDecoration(
-              border: Border(top: BorderSide(color: Colors.grey, width: 1)),
+              border: Border(top: BorderSide(color: ColorRes.border, width: 1)),
             ),
             padding: const EdgeInsets.only(top: 5),
             child: const Column(
@@ -85,8 +85,8 @@ class SideberMenuWidget extends StatelessWidget {
                   'Design & Developed by',
                   style: TextStyle(
                     fontSize: 14,
-                    fontWeight: FontWeight.w400,
-                    color: Colors.grey,
+                    fontWeight: FontWeight.w300,
+                    color: ColorRes.primaryColor,
                   ),
                   textAlign: TextAlign.center,
                 ),

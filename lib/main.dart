@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'splash_screen.dart';
 import 'widget/colors.dart';
 
 void main() async {
-  runApp(const IslamicSongsLyricsApp());
+  runApp(const SongsLyricsApp());
 }
 
-class IslamicSongsLyricsApp extends StatelessWidget {
-  const IslamicSongsLyricsApp({super.key});
+class SongsLyricsApp extends StatelessWidget {
+  const SongsLyricsApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: ColorRes.background),
-      title: 'Islamic Songs Lyrics',
+      title: 'Songs Lyrics',
       home: const SplashScreen(),
     );
   }
