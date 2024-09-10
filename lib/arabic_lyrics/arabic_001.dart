@@ -18,7 +18,7 @@ class ArabicOneScreen extends StatelessWidget {
         title: const Text(
           "মাওলা ইয়া সল্লি ওয়া সল্লিম",
           style: TextStyle(
-            fontSize: 18,
+            fontSize: 16,
             fontWeight: FontWeight.w700,
             color: ColorRes.primaryColor,
           ),
@@ -33,11 +33,12 @@ class ArabicOneScreen extends StatelessWidget {
               backgroundColor: ColorRes.background,
               width: Get.width,
               child: Padding(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(15),
                 child: GlobalContainer(
                   backgroundColor: ColorRes.white,
                   elevation: 2.0,
-                  borderCornerRadius: BorderRadius.circular(5),
+                  borderCornerRadius: BorderRadius.circular(10),
+                  bottomBorderColor: ColorRes.border,
                   width: Get.width,
                   child: const Padding(
                     padding: EdgeInsets.all(10),
@@ -95,7 +96,6 @@ class ArabicOneScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 10),
           ],
         ),
       ),

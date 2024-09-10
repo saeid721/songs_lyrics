@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'arabic_lyrics/arabic_001.dart';
 import 'widget/chapter_item_widget.dart';
 import 'bangla_lyrics/bangla_001.dart';
 import 'widget/colors.dart';
@@ -43,9 +44,9 @@ class _ArabicSongsLyricListScreenState
               children: [
                 const SizedBox(height: 10),
                 ChapterItem(
-                  title: 'প্রথম',
+                  title: 'মাওলা ইয়া সল্লি ওয়া সল্লিম',
                   onTap: () {
-                    Get.to(() => const BanglaOneScreen());
+                    Get.to(() => const ArabicOneScreen());
                   },
                 ),
                 const SizedBox(height: 5),
